@@ -1,0 +1,35 @@
+﻿@model WebClient.Models.ListFlower
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<table class="table table-striped table-bordered">
+	<thead class="thead-dark">
+		<tr>
+			<th>@Html.DisplayNameFor(model => model.Flowers[0].FlowerBouquetName)</th>
+			<th>@Html.DisplayNameFor(model => model.Flowers[0].Description)</th>
+			<th>@Html.DisplayNameFor(model => model.Flowers[0].UnitPrice)</th>
+			<th>@Html.DisplayNameFor(model => model.Flowers[0].UnitsInStock)</th>
+			<th>@Html.DisplayNameFor(model => model.Flowers[0].FlowerBouquetStatus)</th>
+			<th>Actions</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model.Flowers)
+		{
+			<tr>
+				<td>@Html.DisplayFor(modelItem => item.FlowerBouquetName)</td>
+				<td>@Html.DisplayFor(modelItem => item.Description)</td>
+				<td>@Html.DisplayFor(modelItem => item.UnitPrice)</td>
+				<td>@Html.DisplayFor(modelItem => item.UnitsInStock)</td>
+				<td>@Html.DisplayFor(modelItem => item.FlowerBouquetStatus)</td>
+				<td>
+					<a class="btn btn-warning" href="@Url.Action("FlowerUpdate", "Admin", new { flowerId = item.FlowerBouquetId })">Chỉnh sửa</a>
+					<a class="btn btn-danger" href="@Url.Action("FlowerDelete", "Admin", new { flowerId = item.FlowerBouquetId })">Xoá</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

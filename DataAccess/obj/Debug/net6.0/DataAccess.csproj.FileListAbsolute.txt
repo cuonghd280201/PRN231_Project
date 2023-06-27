@@ -1,0 +1,15 @@
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\DataAccess\bin\Debug\net6.0\appsettings.json
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

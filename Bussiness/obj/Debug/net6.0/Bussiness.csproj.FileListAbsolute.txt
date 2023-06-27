@@ -1,0 +1,17 @@
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\Bussiness\bin\Debug\net6.0\appsettings.Development.json
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\Bussiness\bin\Debug\net6.0\appsettings.json
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\Bussiness\bin\Debug\net6.0\Bussiness.deps.json
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\Bussiness\bin\Debug\net6.0\Bussiness.dll
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\Bussiness\bin\Debug\net6.0\Bussiness.pdb
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\Bussiness\bin\Debug\net6.0\DataAccess.dll
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\Bussiness\bin\Debug\net6.0\DataAccess.pdb
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\Bussiness\obj\Debug\net6.0\Bussiness.csproj.AssemblyReference.cache
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\Bussiness\obj\Debug\net6.0\Bussiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\Bussiness\obj\Debug\net6.0\Bussiness.AssemblyInfoInputs.cache
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\Bussiness\obj\Debug\net6.0\Bussiness.AssemblyInfo.cs
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\Bussiness\obj\Debug\net6.0\Bussiness.csproj.CoreCompileInputs.cache
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\Bussiness\obj\Debug\net6.0\Bussiness.csproj.CopyComplete
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\Bussiness\obj\Debug\net6.0\Bussiness.dll
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\Bussiness\obj\Debug\net6.0\refint\Bussiness.dll
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\Bussiness\obj\Debug\net6.0\Bussiness.pdb
+C:\CK8\Tran_Hoai_Nam_ClassCode_A03\Bussiness\obj\Debug\net6.0\ref\Bussiness.dll

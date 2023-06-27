@@ -1,0 +1,31 @@
+﻿@model WebClient.Models.ListOrderDetail
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>FlowerBouquetId</th>
+			<th>UnitPrice</th>
+			<th>Quantity</th>
+			<th>Discount</th>
+		</tr>
+	</thead>
+	<tbody>
+		@if (Model.OrderDetails != null)
+		{
+			@foreach (var orderDetail in Model.OrderDetails)
+			{
+				<tr>
+					<td>@orderDetail.FlowerBouquetId</td>
+					<td>@orderDetail.UnitPrice</td>
+					<td>@orderDetail.Quantity</td>
+					<td>@orderDetail.Discount</td>
+				</tr>
+			}
+		}
+	</tbody>
+</table>

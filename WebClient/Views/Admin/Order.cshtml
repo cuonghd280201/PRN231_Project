@@ -1,0 +1,53 @@
+﻿@model WebClient.Models.ListOrderModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				Ngày đặt hàng
+			</th>
+			<th>
+				Ngày giao hàng ước tính
+			</th>
+			<th>
+				Tổng số tiền
+			</th>
+			<th>
+				Tình trạng
+			</th>
+			<th>Actions</th>
+		</tr>
+	</thead>
+	<tbody>
+		@if (Model != null)
+		{
+			@foreach (var item in Model.Orders)
+			{
+				<tr>
+					<td>
+						@Html.DisplayFor(modelItem => item.OrderDate)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.ShippedDate)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Total)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.OrderStatus)
+					</td>
+					<td>
+						@if (item.OrderStatus.Trim().Equals("Waiting"))
+						{
+							<a class="btn btn-success" href="@Url.Action("MakeDone", "Admin", new { orderId = item.OrderId })">Đã giao</a>
+						}
+					</td>
+				</tr>
+			}
+		}
+	</tbody>
+</table>

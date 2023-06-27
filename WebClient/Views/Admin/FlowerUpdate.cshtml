@@ -1,0 +1,55 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model DataAccess.Models.FlowerBouquet
+
+<form asp-action="FlowerUpdate" asp-controller="Admin" method="post">
+    <input type="hidden" asp-for="FlowerBouquetId" />
+
+    <div>
+        <label>Category ID:</label>
+        <select asp-for="CategoryId" asp-items="@ViewBag.Categories"></select>
+        <span asp-validation-for="CategoryId"></span>
+    </div>
+
+    <div>
+        <label>Flower Bouquet Name:</label>
+        <input type="text" asp-for="FlowerBouquetName" />
+        <span asp-validation-for="FlowerBouquetName"></span>
+    </div>
+
+    <div>
+        <label>Description:</label>
+        <input type="text" asp-for="Description" />
+        <span asp-validation-for="Description"></span>
+    </div>
+
+    <div>
+        <label>Unit Price:</label>
+        <input type="text" asp-for="UnitPrice" />
+        <span asp-validation-for="UnitPrice"></span>
+    </div>
+
+    <div>
+        <label>Units In Stock:</label>
+        <input type="text" asp-for="UnitsInStock" />
+        <span asp-validation-for="UnitsInStock"></span>
+    </div>
+
+    <div>
+        <label>Flower Bouquet Status:</label>
+        <input type="text" asp-for="FlowerBouquetStatus" />
+        <span asp-validation-for="FlowerBouquetStatus"></span>
+    </div>
+
+    <div>
+        <label>Supplier ID:</label>
+        <select asp-for="SupplierId" asp-items="@ViewBag.Suppliers"></select>
+        <span asp-validation-for="SupplierId"></span>
+    </div>
+
+    <input type="submit" value="Update" />
+
+</form>
